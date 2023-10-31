@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="canvas.css" rel="stylesheet" type="text/css">
+		<title>Canvas</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td></td>
+				<td>
+					<p>
+						<label>
+							<input type = "checkbox" id="rejilla" checked="checked"/>
+							<span>Ver rejilla</span> 
+						</label>
+					</p>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<canvas id="tile" width="192" height=448">
+						Tu navegador no sporta canvas				
+					</canvas>
+				</td>
+				<td>
+					<canvas id="escenario" width="1280" height="640">
+						Tu navegador no sporta canvas				
+					</canvas>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type = "file" id="texto" accept="txt" multiple/>
+				</td>
+				<td>
+					<textarea id="textarea" Class="materialize-textarea"></textarea>
+					<label for = "textarea">Datos</label>
+				</td>
+			</tr>
+
+		</table>
+		<script type="text/javascript" src="imagen.js"></script>
+	</body>
+</html>
