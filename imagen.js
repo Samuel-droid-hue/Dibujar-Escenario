@@ -8,7 +8,7 @@ var textarea = document.getElementById("textarea");
 var texto = document.getElementById("texto");
 
 var img = new Image();
-img.src = "Tileset2.png";
+img.src = "tubup.png";
 //Variables canvas
 var xTile = 0;
 var yTile = 0;
@@ -25,6 +25,7 @@ img.onload = function (){ //carga la imagen y despues ejecuta la funcion
 	draw()
 	draw_escenario();
 }
+
 rejilla.addEventListener('change', manejadorRejilla);
 //para agregar escuchadores, detecta eventos 
 canvas.addEventListener('mousedown',manejadorRaton, false);
